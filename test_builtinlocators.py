@@ -44,6 +44,7 @@ def test_getbytitle(page:Page):
      expect(title).to_have_text("Home")
      page.wait_for_timeout(10000)
 
+
 from playwright.sync_api import Page , expect
 def test_getbytestid(page:Page):
      page.goto("https://testautomationpractice.blogspot.com/p/playwrightpractice.html")
