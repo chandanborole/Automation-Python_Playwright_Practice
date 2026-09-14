@@ -20,6 +20,7 @@ def test_tagandattribute(page:Page):
     page.locator("input[name=q]").fill("mobiles")
     page.wait_for_timeout(5000)
 
+
 def test_tagclassandattribute(page:Page):
     # tag , class and attribute
     page.goto("https://demowebshop.tricentis.com/")
